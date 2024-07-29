@@ -1,0 +1,17 @@
+[package]
+name = "yew-boilerplate"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Hadi Haider"]
+description = "A boilerplate setup for building web applications using the Yew framework with Tailwind CSS. It allows users to quickly get started with their Yew projects without having to configure everything from scratch."
+repository = "https://github.com/hadihaider055/yew-boilerplate.git"
+categories = ["command-line-utilities", "Web programming"]
+keywords = ["tailwind", "yew", "cli", "css", "wasm", "html", "boilerplate"]
+homepage = "https://github.com/hadihaider055/yew-boilerplate.git"
+
+[dependencies]
+# this is the development version of Yew
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+yew-router = { git = "https://github.com/yewstack/yew.git" }
+
