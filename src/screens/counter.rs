@@ -22,9 +22,14 @@ pub fn counter() -> Html {
 
     html! {
         <div class="bg-slate-800 flex items-center justify-center h-screen w-screen gap-10">
-            <Button onclick={handle_increase} class="bg-blue-400 p-4 rounded-md">{ "+1" }</Button>
+            <Button onclick={handle_increase} class="font-bold">{ "+1" }</Button>
             <p class="text-white text-7xl">{ *counter }</p>
-            <Button onclick={handle_decrease} class="bg-blue-400 p-4 rounded-md">{ "-1" }</Button>
+            <Button
+                onclick={handle_decrease}
+                class="font-bold"
+                disabled={*counter == 0}>
+                { "-1" }
+            </Button>
         </div>
     }
 }

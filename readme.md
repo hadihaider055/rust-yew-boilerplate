@@ -1,4 +1,4 @@
-# Yew Boilerplate
+# Rust Yew Boilerplate
 
 This repository provides a boilerplate setup for building web applications using the Yew framework with Tailwind CSS. It allows users to quickly get started with their Yew projects without having to configure everything from scratch.
 
@@ -21,8 +21,8 @@ This repository provides a boilerplate setup for building web applications using
 ##### Clone the repository:
 
 ```sh
-git clone https://github.com/hadihaider055/yew-boilerplate.git
-cd yew-boilerplate
+git clone https://github.com/hadihaider055/rust-yew-boilerplate.git
+cd rust-yew-boilerplate
 ```
 
 ##### Install dependencies:
@@ -60,4 +60,4 @@ For any inquiries, please contact [Hadi Haider](mailto:haiderhadi055@gmail.com).
 
 ---
 
-Made with ❤️ by [Hadi Haider](https://hadihaider.tech)
+Made with ❤️ by [Hadi Haider](https://linkedin.com/in/hadi-haider)

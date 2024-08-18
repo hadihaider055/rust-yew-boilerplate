@@ -5,3 +5,13 @@ address = "127.0.0.1"
 # address = "0.0.0.0"
 # The port to serve on.
 port = 8000
+
+[build]
+target = "index.html"
+dist = "dist"
+
+[[hooks]]
+stage = "build"
+command = "sh"
+command_arguments = ["-c", "echo 'building new tailwind....' && npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css"]
+
